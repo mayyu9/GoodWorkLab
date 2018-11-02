@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Parent from './eGovt/parent';
+import Parent from './GoodWorkLab/parent';
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to eGovernment Foundation</h1>
+          <h1 className="App-title">Welcome to GoodWorkLabs</h1>
         </header>
         <div className="App-intro">
           <Parent />

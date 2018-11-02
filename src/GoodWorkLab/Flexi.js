@@ -12,7 +12,7 @@ class Flexi extends React.Component {
     this.setState({pstate:event.target.value});
   }
   inputChange(event){
-    
+
     this.setState({pname:event.target.value});
   }
   render(){
@@ -42,7 +42,7 @@ const CreateTextField = (props) =>{
 
   return(
     <label>
-      {props.labelName}:
+      {props.labelName} : 
         <input type='text' name={props.labelName} value={props.optionValues} onChange = {props.change}/>
     </label>
   )
@@ -51,7 +51,7 @@ const CreateTextField = (props) =>{
 const CreateDropDown = (props) =>{
   return(
     <label>
-      {props.labelName}:
+      {props.labelName} :
         <select name={props.labelName} onChange = {props.change}>
           {props.optionValues.map(x => <option value={x}>{x}</option>)}
         </select>
